@@ -1,5 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,Total
-"Toyota ABC motors, Gurugram",Toyota Innova,Isaac,isaac@gmail.com,8878797835,6,3.5,14.5,132,321,250,370,120,1193
-"Toyota KLF motors, Faridabad",Toyota Innova,Adam,Adam@yahoo.com,9876543210,6,3.6,14.2,182,327,164,315,290,1278
-"Toyota Avenue motors, New Delhi",Toyota Innova,Shaun,shaun@outlook.com,6541239870,12,2.8,14.1,265,210,148,287,320,1230
-"Toyota Plaza motors, Mumbai",Toyota Innova,Chris,shris@gmail.com,3216549870,8,3.0,14.3,243,317,198,241,123,1122
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Toyota ABC motors, Gurugram",Toyota Innova,employee_1,xyz@gmail.com,12344556,6,4.0,15.0,900,1200,300,2100,1500,100,600,800,7500
+"Toyota KLF motors, Faridabad",Toyota Innova,employee_2,zxc@cmail.com,57876523,12,3.8,14.7,800,1500,500,1300,900,600,300,1800,7700
+"Toyota Avenue motors, New Delhi",Toyota Innova,employee_3,asd@dmail.com,77898987,18,3.5,14.2,1100,1300,200,1400,700,400,500,2200,7800
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_4,qwe@gmail.com,54546545,24,3.2,14.0,1500,1500,600,1100,850,700,1500,100,7850
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_5,ert@dmail.com,13232132,30,3.1,13.8,1000,1500,350,1800,800,100,1500,1400,8450
+"Toyota ABC motors, Gurugram",Toyota Innova,employee_6,dfg@gmail.com,51155151,36,2.81,13.5,800,100,600,2000,1800,1100,1400,800,8600
+"Toyota KLF motors, Faridabad",Toyota Innova,employee_7,rty@gmail.com,14145114,42,2.54,13.0,1600,1200,1400,1900,1500,500,800,100,9000
+"Toyota Avenue motors, New Delhi",Toyota Innova,employee_8,tyu@hotmail.com,12020210,48,2.2,12.5,2000,1500,1200,1800,800,600,200,1300,9400
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_9,ghj@hotmail.com,32132132,54,2.1,12.1,1800,1500,1200,1700,1400,600,300,1100,9600
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_10,vbnm@hotmail.com,65465465,60,2.0,12.0,2000,1800,1500,1700,100,1800,200,1800,10900

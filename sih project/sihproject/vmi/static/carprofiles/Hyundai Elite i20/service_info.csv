@@ -1,0 +1,11 @@
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Hyundai Plaza motors, Mumbai",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,6,4.6,17.0,710,720,730,750,660,680,700,550,5500
+"Hyundai Avenue motors, New Delhi",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,12,4.5,16.9,690,750,740,550,800,700,695,600,5525
+"Hyundai KLF motors, Faridabad",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,18,4.4,16.7,710,760,760,800,770,720,720,640,5880
+"Hyundai ABC motors, Gurugram",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,24,4.3,16.6,740,724,612,750,950,750,730,700,5956
+"Hyundai Avenue motors, New Delhi",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,30,4.2,16.4,760,780,800,790,800,770,740,720,6160
+"Hyundai KLF motors, Faridabad",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,36,4.1,16.3,840,820,810,440,1200,840,780,900,6630
+"Hyundai ABC motors, Gurugram",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,42,4.0,16.2,880,860,840,890,1050,860,800,940,7120
+"Hyundai Plaza motors, Mumbai",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,48,3.9,16.1,900,880,860,900,1040,900,820,1040,7340
+"Hyundai Avenue motors, New Delhi",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,54,3.8,16.0,910,900,550,1250,780,1160,850,1056,7456
+"Hyundai KLF motors, Faridabad",Hyundai Elite i20,Shivam Chopra,shivamchopra@gmail.com,7446588942,60,3.7,15.8,980,808,700,1150,990,1060,890,1060,7638

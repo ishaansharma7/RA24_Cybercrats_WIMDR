@@ -1,5 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,Total
-"Honda ABC motors, Gurugram",Honda Amaze,Sarthak Singh,sarthak44@yahoo.com,8850645698,8,4.3,17.1,442,420,412,432,1706
-"Honda KLF motors, Faridabad",Honda Amaze,Sagar Mishra,sagar.mishra@gmail.com,7764593214,14,4.1,16.9,388,406,409,405,1608
-"Honda Avenue motors, New Delhi",Honda Amaze,Rishabh Singhal,singhal002@gmail.com,9958683254,54,3.8,16.2,348,358,355,332,1393
-"Honda Plaza motors, Mumbai",Honda Amaze,Gagan Chaudhary,gagan.ch@gmail.com,7482366548,24,3.9,16.5,365,382,352,377,1476
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Honda ABC motors, Gurugram",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,6,4.5,16.2,800,810,790,780,820,815,813,790,6418
+"Honda KLF motors, Faridabad",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,12,4.4,16.1,805,820,816,790,815,890,844,809,6589
+"Honda Plaza motors, Mumbai",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,18,4.4,16.0,810,840,790,810,860,850,826,844,6630
+"Honda ABC motors, Gurugram",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,24,4.3,16.0,795,860,831,846,889,900,810,864,6795
+"Honda Plaza motors, Mumbai",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,30,4.2,15.8,840,845,860,870,880,874,825,895,6889
+"Honda KLF motors, Faridabad",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,36,4.1,15.7,845,825,899,880,860,910,800,880,6899
+"Honda Avenue motors, New Delhi",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,42,4.1,15.6,860,865,910,890,880,910,890,900,7105
+"Honda ABC motors, Gurugram",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,48,4.0,15.5,880,875,890,900,900,920,910,910,7185
+"Honda KLF motors, Faridabad",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,54,3.8,15.4,900,880,900,910,880,900,910,950,7230
+"Honda Plaza motors, Mumbai",Honda Amaze,Sarthak Chopra,sarthak22@gmail.com,9968453265,60,3.7,15.2,940,912,906,940,990,950,890,940,7468

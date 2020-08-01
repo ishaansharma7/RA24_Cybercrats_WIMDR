@@ -1,5 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,Total
-"Kia International, New Delhi",Kia Seltos,Lilu Pardhon,lilukileli@gmail.com,8888888888,8,4.0,15.6,456,133,145,187,921
-"Kia DP motors, Noida",Kia Seltos,Satbeer gagngister,satbeergujjarboy@gamil.com,6666666666,12,4.3,15.0,123,122,214,156,615
-"Kia G9 motors, Ambala Cant.",Kia Seltos,Dalbeer gangister,dalbeergujjarboy@gmail.com,7777777777,12,4.2,15.2,213,155,236,146,750
-"Kia Vijay motors , Mumbai",Kia Seltos,Tau gangister,tau_revolver@hotmail.com,9999999999,10,5.0,15.0,455,266,325,125,1171
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Kia ABC motors, Gurugram",Kia Seltos,employee_1,xyz@gmail.com,12344556,6,5.0,15.0,600,1150,800,1100,1100,950,950,900,7550
+"Kia KLF motors, Faridabad",Kia Seltos,employee_2,zxc@cmail.com,57876523,12,5.7,14.8,500,1100,700,1600,900,900,1700,500,7900
+"Kia Avenue motors, New Delhi",Kia Seltos,employee_3,asd@dmail.com,77898987,18,5.5,14.5,1100,1000,1300,1200,1200,1000,1200,800,8800
+"Kia Plaza motors, Mumbai",Kia Seltos,employee_4,qwe@gmail.com,54546545,24,4.9,14.2,1000,1500,1000,1400,1200,600,1200,100,8000
+"Kia Plaza motors, Mumbai",Kia Seltos,employee_5,ert@dmail.com,13232132,30,4.7,13.9,1000,1850,1000,1650,600,1800,2000,1200,11100
+"Kia ABC motors, Gurugram",Kia Seltos,employee_6,dfg@gmail.com,51155151,36,4.5,13.6,1500,1000,1200,1300,1800,1000,1000,1500,10300
+"Kia KLF motors, Faridabad",Kia Seltos,employee_7,rty@gmail.com,14145114,42,4.2,13.3,1800,200,900,1200,850,1400,700,1500,8550
+"Kia Avenue motors, New Delhi",Kia Seltos,employee_8,tyu@hotmail.com,12020210,48,4.0,13.0,1000,1500,1400,1000,1300,800,850,2400,10250
+"Kia Plaza motors, Mumbai",Kia Seltos,employee_9,ghj@hotmail.com,32132132,54,3.9,12.9,1200,1500,1200,1400,1000,1000,1000,900,9200
+"Kia Plaza motors, Mumbai",Kia Seltos,employee_10,vbnm@hotmail.com,65465465,60,3.7,12.6,1800,1500,1800,1600,800,800,600,1300,10200

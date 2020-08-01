@@ -1,0 +1,11 @@
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Tata ABC motors, Gurugram",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,6,4.1,16.4,450,850,790,840,700,842,674,850,5996
+"Tata KLF motors, Faridabad",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,12,4.0,16.3,700,790,840,852,750,740,720,830,6222
+"Tata Avenue motors, New Delhi",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,18,3.9,16.2,830,650,940,840,832,790,840,850,6572
+"Tata Plaza motors, Mumbai",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,24,3.8,16.1,890,900,780,900,920,940,950,890,7170
+"Tata ABC motors, Gurugram",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,30,3.7,16.0,940,790,1005,930,960,863,932,990,7410
+"Tata KLF motors, Faridabad",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,36,3.7,15.8,657,1200,1050,990,1002,980,990,1050,7919
+"Tata Avenue motors, New Delhi",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,42,3.5,15.7,930,1150,1450,1350,600,680,1070,1250,8480
+"Tata Plaza motors, Mumbai",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,48,3.4,15.6,1200,980,1245,1280,890,790,900,1300,8585
+"Tata ABC motors, Gurugram",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,54,3.2,15.4,1240,1050,1300,1400,960,932,1040,1250,9172
+"Tata KLF motors, Faridabad",Tata Tigor,Sakshi Yadav,sakshi43@gmail.com,9415667841,60,3.1,15.2,1250,1300,1402,1502,1005,700,900,1560,9619

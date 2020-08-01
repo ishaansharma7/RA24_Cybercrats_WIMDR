@@ -1,0 +1,11 @@
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Hyundai ABC motors, Gurugram",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,6,4.6,16.0,834,845,634,543,965,900,990,800,6511
+"Hyundai KLF motors, Faridabad",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,12,4.5,15.9,840,823,671,700,960,800,1050,940,6784
+"Hyundai Avenue motors, New Delhi",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,18,4.4,15.8,860,840,700,740,840,950,1100,900,6930
+"Hyundai Plaza motors, Mumbai",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,24,4.3,15.7,700,950,710,750,850,920,1150,910,6940
+"Hyundai ABC motors, Gurugram",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,30,4.2,15.6,840,910,750,780,860,940,900,1260,7240
+"Hyundai KLF motors, Faridabad",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,36,4.1,15.4,940,936,984,840,900,750,1200,1240,7790
+"Hyundai Avenue motors, New Delhi",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,42,4.0,15.2,1024,940,1000,890,890,800,1106,1300,7950
+"Hyundai Plaza motors, Mumbai",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,48,3.9,15.1,1040,780,800,1060,1200,1140,1220,1340,8580
+"Hyundai ABC motors, Gurugram",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,54,3.8,15.0,1050,800,1040,1060,1080,1200,1310,1200,8740
+"Hyundai KLF motors, Faridabad",Hyundai Verna,Sourabh Singh,sourabh25@gmail.com,9568778365,60,3.7,14.9,1100,900,750,900,1400,1260,1265,1155,8730

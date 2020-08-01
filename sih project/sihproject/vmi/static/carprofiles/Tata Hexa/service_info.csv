@@ -1,0 +1,11 @@
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
+"Tata ABC motors, Gurugram",Tata Hexa,employee_1,xyz@gmail.com,12344556,6,4.9,14.5,930,1000,900,985,1050,940,1200,850,7855
+"Tata KLF motors, Faridabad",Tata Hexa,employee_2,zxc@cmail.com,57876523,12,4.6,14.3,1000,1200,300,1500,900,1100,1000,1200,8200
+"Tata Avenue motors, New Delhi",Tata Hexa,employee_3,asd@dmail.com,77898987,18,4.3,14.0,1100,1500,500,1200,900,1000,600,1400,8200
+"Tata Plaza motors, Mumbai",Tata Hexa,employee_4,qwe@gmail.com,54546545,24,4.0,13.8,1000,1500,1500,1000,1000,500,1500,100,8100
+"Tata Plaza motors, Mumbai",Tata Hexa,employee_5,ert@dmail.com,13232132,30,3.6,13.5,1300,1500,750,1800,1500,700,2000,1400,10950
+"Tata ABC motors, Gurugram",Tata Hexa,employee_6,dfg@gmail.com,51155151,36,3.5,13.4,1200,1500,1000,1500,2000,800,800,1400,10200
+"Tata KLF motors, Faridabad",Tata Hexa,employee_7,rty@gmail.com,14145114,42,3.3,13.1,1300,1200,1300,1200,1250,500,1000,1200,8950
+"Tata Avenue motors, New Delhi",Tata Hexa,employee_8,tyu@hotmail.com,12020210,48,3.1,13.0,1000,1500,1200,1100,1200,100,700,2200,9000
+"Tata Plaza motors, Mumbai",Tata Hexa,employee_9,ghj@hotmail.com,32132132,54,3.0,12.8,1200,1500,1000,800,1500,1400,1000,1000,9400
+"Tata Plaza motors, Mumbai",Tata Hexa,employee_10,vbnm@hotmail.com,65465465,60,3.0,12.75,1500,1800,1500,1900,200,1000,700,1300,9900
