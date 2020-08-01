@@ -1,0 +1,27 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+
+<div class="container my-5" >
+    <h1 style="margin-top:80px;"><b>Update Data</b></h1>
+    
+    
+
+    
+    <form method="post" action="/service_loc">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="brandselect">Select Brand</label>
+            <select class="form-control" id="brandselect" name="brandselect">
+                {% for brand in all_brands%}
+                    <option>{{brand.brand_cap}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+
+
+</div>
+{% endblock body %}

@@ -1,0 +1,5 @@
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,Total
+"Honda ABC motors, Gurugram",Honda Civic,Jitendra Malik,jitndra.02@gmail.com,9910256874,6,4.6,18.6,400,430,405,402,1637
+"Honda KLF motors, Faridabad",Honda Civic,Karan Sharma,karan92@gmail.com,8862549314,12,4.5,18.2,390,425,400,398,1613
+"Honda Avenue motors, New Delhi",Honda Civic,Aman Singh,aman.singh@gmail.com,7765432845,64,3.6,16.2,350,360,340,330,1380
+"Honda Plaza motors, Mumbai",Honda Civic,Gagan Mishra,mishrasaab@gmail.com,9910836542,29,4.1,17.0,370,380,350,366,1466

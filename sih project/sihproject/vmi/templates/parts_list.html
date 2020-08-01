@@ -1,0 +1,24 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+
+<div class="container my-5">
+    <h1 style="margin-top:80px;"><b>Enter The Maintenance Cost Of Each Part</b></h1>
+
+    <form method="post" action="/final_submit">
+        {% csrf_token %}
+        {{html_parts | safe}}
+
+
+        <div class="form-group">
+            <label for="desc">Any specific problem or suggestion</label>
+            <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+        </div>
+        
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+
+
+</div>
+{% endblock body %}
