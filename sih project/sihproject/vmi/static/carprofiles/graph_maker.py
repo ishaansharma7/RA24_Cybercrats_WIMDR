@@ -15,8 +15,8 @@ def graph_maker_SUV():
     x = listed_SUV['Car_Name'] # returns column of only SUV
     y = listed_SUV['Avg_Service'] # returns column of only SUV Avg_service
     plt.title('Category: SUV')
-    plt.bar(x,y, color='#13d17b')
-    plt.ylabel('Service Cost(₹)', fontsize=16)
+    plt.barh(x,y, color='#13d17b')
+    plt.xlabel('Service Cost(₹)', fontsize=16)
     plt.savefig('SUV_Avg_Service.png',dpi=500,bbox_inches='tight', pad_inches=0.2)
     
 
@@ -27,8 +27,8 @@ def graph_maker_Hatch():
     x = listed_Hatch['Car_Name']
     y = listed_Hatch['Avg_Service']
     plt.title('Category: Hatchback')
-    plt.bar(x,y, color='#13d17b')
-    plt.ylabel('Service Cost(₹)', fontsize=16)
+    plt.barh(x,y, color='#13d17b')
+    plt.xlabel('Service Cost(₹)', fontsize=16)
     plt.savefig('Hatch_Avg_Service.png',dpi=500,bbox_inches='tight', pad_inches=0.2)
     
 
@@ -39,8 +39,8 @@ def graph_maker_Sedan():
     x = listed_Sedan['Car_Name']
     y = listed_Sedan['Avg_Service']
     plt.title('Category: Sedan')
-    plt.bar(x,y, color='#13d17b')
-    plt.ylabel('Service Cost(₹)', fontsize=16)
+    plt.barh(x,y, color='#13d17b')
+    plt.xlabel('Service Cost(₹)', fontsize=16)
     plt.savefig('Sedan_Avg_Service.png',dpi=500,bbox_inches='tight', pad_inches=0.2)
     
 

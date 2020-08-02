@@ -56,8 +56,15 @@ def parts_table_html(car_name,path):
 							{round(row['Avgerage Money Spent'], 2)}
 						</td>
 						<td>
-							{dataset}
+							{dataset} cars
 						</td>
 					</tr>'''
         counter += 1
     return html_table
+
+def rating(car_name,path):
+    df = pd.read_csv(f'{path}/carprofiles.csv')
+    row = {}
+    row = df.loc[df['Car_Name'] == f'{car_name}']
+    rating = row['Rating'].mean()*10
+    return round(rating, 2)

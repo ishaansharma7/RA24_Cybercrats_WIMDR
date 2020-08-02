@@ -5,7 +5,7 @@ class CarModels(models.Model):
     car_brand_name = models.CharField(max_length=100, null='imp')
     price = models.CharField(max_length=150, default='₹10lakhs')
     mileage = models.CharField(max_length=150, default='14kmpl')
-    index_car = models.CharField(max_length=150, default='2.3')
+    
     short_desc = models.TextField(null='desc')
     feat = models.TextField(null='feat')
     specs = models.TextField(null='specs')

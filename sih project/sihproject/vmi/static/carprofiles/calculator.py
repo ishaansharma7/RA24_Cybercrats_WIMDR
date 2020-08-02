@@ -102,6 +102,32 @@ def pfsi():
         df.loc[df['Car_Name'] == row['Car_Name'], 'PFSI_Global'] = row['Avg_Service']/listed_total
     df.to_csv(carprofile_path, index=False)
 
+def car_price_comp():
+    df = pd.read_csv(carprofile_path)
+    listed_suv = {}
+    listed_suv = df.loc[df['Category'] == 'SUV']
+    listed_hatch = {}
+    listed_hatch = df.loc[df['Category'] == 'Hatch']
+    listed_sedan = {}
+    listed_sedan = df.loc[df['Category'] == 'Sedan']
+    for index, row in df.iterrows():
+        #print(index, row['Name'])
+        if row['Category'] == 'SUV':
+            df.loc[df['Car_Name'] == row['Car_Name'], 'Price_Comp'] = row['Price']/(listed_suv['Price'].sum())
+        elif row['Category'] == 'Hatch':
+            df.loc[df['Car_Name'] == row['Car_Name'], 'Price_Comp'] = row['Price']/(listed_hatch['Price'].sum())
+        elif row['Category'] == 'Sedan':
+            df.loc[df['Car_Name'] == row['Car_Name'], 'Price_Comp'] = row['Price']/(listed_sedan['Price'].sum())
+    df.to_csv(carprofile_path, index=False)
+
+def rating_maker():
+    df = pd.read_csv(carprofile_path)
+    weigt = .1667
+    df['Rating'] = (df['Mileage']/20)*weigt + (df['Emission_Rating']/5)*weigt + (1-df['PFSI_Global'])*weigt + (df['Safety']/5)*weigt + (df['Price_Comp'])*weigt + (df['User_Feedback']/5)*weigt
+    df.to_csv(carprofile_path, index=False)
+
 updater()
 pfsi()
+car_price_comp()
+rating_maker()
 print('Task Completed')

@@ -44,7 +44,7 @@
 		<div class="col-md-6">
 			<h3>
 				{{car.car_brand_name}} <a
-					style="background-color:#14c44f;color:white;border-radius:10px;padding: 0px 5px;">Index:
+					style="background-color:#14c44f;color:white;border-radius:10px;padding: 0px 5px;">Rating: {{rate}}
 					{{car.index_car}}</a>
 			</h3>
 			<p
@@ -95,13 +95,19 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6" >
+			<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
 			<h3 style="text-align:center;">Average Service Price</h3>
 			<img src="{{profileUrl}}/{{car.category}}_Avg_Service.png" style="width:80%; height:auto;" alt="...">
+			<h4 style="text-align:center;">Lower is better</h4>
+			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6" >
+			<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
 			<h3 style="text-align:center;">Part Failure Service Index</h3>
 			<img src="{{profileUrl}}/{{car.category}}_PFSI.png" style="width:80%; height:auto;" alt="...">
+			<h4 style="text-align:center;">Lower percentage is better</h4>
+			</div>
 		</div>
 	</div>
 
@@ -109,23 +115,32 @@
 
 	<div class="row">
 		<div class="col-md-6">
+		<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
 			<h3 style="text-align:center;">Mileage vs Age(Months)</h3>
 			<img src="{{profileUrl}}/{{car.car_brand_name}}/mileage.png" style="width:80%; height:auto;" alt="...">
 		</div>
+		</div>
 		<div class="col-md-6">
+		<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
 			<h3 style="text-align:center;">Emission rating vs Age(Months)</h3>
 			<img src="{{profileUrl}}/{{car.car_brand_name}}/emission.png" style="width:80%; height:auto;" alt="...">
+		</div>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-md-6">
+		<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
 			<h3 style="text-align:center;">Service Cost vs Age(Months)</h3>
 			<img src="{{profileUrl}}/{{car.car_brand_name}}/total.png" style="width:80%; height:auto;" alt="...">
 		</div>
+		</div>
 		<div class="col-md-6">
 			<div style="padding-left:auto;padding-right: auto;">
-				<img src="{{profileUrl}}/PFSI_Global.png" style="width:90%; height:auto;" alt="...">
+			<div style="margin: 10px 10px 10px 10px;border-width:4px; border-style:solid; border-radius:20px;border-color: rgba(0,0,0,0.3);">
+				<img src="{{profileUrl}}/PFSI_Global.png" style="width:100%; height:auto;" alt="...">
+				<h4 style="text-align:center;">Lower is better</h4>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -134,7 +149,9 @@
 
 	<div class="row">
 		<div class="col-md-12">
-			<table class="table">
+		<div style="border-top: 5px solid rgba(0,0,0,0.3);margin: 40px 0px 20px 0px;"></div>
+		<h4 style="text-align:center;margin: 10px 10px 10px 10px;">Average amount of money spent on each part (Highest to Lowest)</h4>
+			<table class="table" style="">
 				<thead>
 					<tr>
 						<th>
