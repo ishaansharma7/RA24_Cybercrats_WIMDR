@@ -29,6 +29,18 @@ def kia(request):
     rended = inter(request, 'Kia')
     return rended
 
+def tata(request):
+    rended = inter(request, 'Tata')
+    return rended
+
+def hyundai(request):
+    rended = inter(request, 'Hyundai')
+    return rended
+
+def honda(request):
+    rended = inter(request, 'Honda')
+    return rended
+
 def home(request):
     print(carprofile_path)
     titlename = 'Home' # for webpage title
