@@ -1,11 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
-"Toyota ABC motors, Gurugram",Toyota Etios Liva,employee_1,xyz@gmail.com,12344556,6,5.0,17.0,900,1100,1000,1500,2000,850,100,1000,8450
-"Toyota KLF motors, Faridabad",Toyota Etios Liva,employee_2,zxc@cmail.com,57876523,12,4.7,17.8,1100,1400,100,1000,1100,600,500,1300,7100
-"Toyota Avenue motors, New Delhi",Toyota Etios Liva,employee_3,asd@dmail.com,77898987,18,4.5,17.5,1300,1000,400,1600,1000,100,700,1800,7900
-"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_4,qwe@gmail.com,54546545,24,4.3,17.3,100,1600,800,1400,1650,100,1200,1400,8250
-"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_5,ert@dmail.com,13232132,30,4.1,17.11,1500,1300,700,1850,1500,700,2000,1400,10950
-"Toyota ABC motors, Gurugram",Toyota Etios Liva,employee_6,dfg@gmail.com,51155151,36,4.0,17.0,1200,1500,1000,1100,1200,1600,1600,1000,10200
-"Toyota KLF motors, Faridabad",Toyota Etios Liva,employee_7,rty@gmail.com,14145114,42,4.0,16.92,1600,1200,1400,1900,1500,500,1000,1500,10600
-"Toyota Avenue motors, New Delhi",Toyota Etios Liva,employee_8,tyu@hotmail.com,12020210,48,3.92,16.6,2000,1700,1100,2100,1500,1400,900,2000,12700
-"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_9,ghj@hotmail.com,32132132,54,3.7,16.2,1800,2000,1200,1500,2000,800,800,2400,12500
-"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_10,vbnm@hotmail.com,65465465,60,3.65,16.0,2000,1800,1400,1400,1200,1000,700,2500,12000
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,User_Feedback,Total
+"Toyota KLF motors, Faridabad",Toyota Etios Liva,employee_2,zxc@cmail.com,57876523,12,4.7,17.8,1100,1400,100,1000,1100.1,600,500,1300,4,7100.1
+"Toyota Avenue motors, New Delhi",Toyota Etios Liva,employee_3,asd@dmail.com,77898987,18,4.5,17.5,1300,1000,400,1600,1000.0,100,700,1800,4,7900.0
+"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_4,qwe@gmail.com,54546545,24,4.3,17.3,100,1600,800,1400,1650.0,100,1200,1400,4,8250.0
+"Toyota ABC motors, Gurugram",Toyota Etios Liva,employee_1,xyz@gmail.com,12344556,6,5.0,17.0,900,1100,1000,1500,2000.0,850,100,1000,3,8450.0
+"Toyota ABC motors, Gurugram",Toyota Etios Liva,employee_6,dfg@gmail.com,51155151,36,4.0,17.0,1200,1500,1000,1100,1200.0,1600,1600,1000,5,10200.0
+"Toyota KLF motors, Faridabad",Toyota Etios Liva,employee_7,rty@gmail.com,14145114,42,4.0,16.92,1600,1200,1400,1900,1500.0,500,1000,1500,3,10600.0
+"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_5,ert@dmail.com,13232132,30,4.1,17.11,1500,1300,700,1850,1500.0,700,2000,1400,3,10950.0
+"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_10,vbnm@hotmail.com,65465465,60,3.65,16.0,2000,1800,1400,1400,1200.0,1000,700,2500,3,12000.0
+"Toyota Plaza motors, Mumbai",Toyota Etios Liva,employee_9,ghj@hotmail.com,32132132,54,3.7,16.2,1800,2000,1200,1500,2000.0,800,800,2400,4,12500.0
+"Toyota Avenue motors, New Delhi",Toyota Etios Liva,employee_8,tyu@hotmail.com,12020210,48,3.92,16.6,2000,1700,1100,2100,1500.0,1400,900,2000,3,12700.0

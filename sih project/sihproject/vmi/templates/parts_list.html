@@ -8,7 +8,10 @@
     <form method="post" action="/final_submit">
         {% csrf_token %}
         {{html_parts | safe}}
-
+        <div class="form-group">
+            <label for="partA">User Feedback Rating</label>
+            <input type="number" class="form-control" id="quantity" step="0.01" name="feedback" placeholder="Out Of Five" min="0" max="5">
+            </div>
 
         <div class="form-group">
             <label for="desc">Any specific problem or suggestion</label>

@@ -19,6 +19,9 @@ urlpatterns = [
     path('select_brand', views.brand_select),
     path('service_loc', views.service_loc),
     path('parts_list', views.semi_submit),
-    path('final_submit', views.final_submit)
+    path('final_submit', views.final_submit),
+    path('rank', views.rank),
+    path('comp_ask', views.comp_ask),
+    path('comp_done', views.comp_done)
 
 ]

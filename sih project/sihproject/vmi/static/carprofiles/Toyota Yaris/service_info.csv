@@ -1,11 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
-"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,6,4.4,16.1,710,800,790,770,500,884,750,790,5994
-"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,12,4.3,16.0,750,690,910,680,710,700,900,880,6220
-"Honda Avenue motors, New Delhi",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,18,4.2,16.0,790,820,800,950,810,821,854,941,6786
-"Honda Plaza motors, Mumbai",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,24,4.1,15.9,845,720,667,1100,850,900,850,1000,6932
-"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,30,4.0,15.8,860,750,700,900,890,941,890,921,6852
-"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,36,4.0,15.7,900,860,940,920,910,558,1240,1050,7378
-"Honda Avenue motors, New Delhi",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,42,3.9,15.6,910,880,610,950,990,750,900,1100,7090
-"Honda Plaza motors, Mumbai",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,48,3.8,15.6,598,1005,1200,856,950,905,895,1008,7417
-"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,54,3.7,15.4,950,960,1005,940,935,985,940,980,7695
-"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,60,3.7,15.3,980,920,1008,1040,980,1007,1100,1040,8075
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,User_Feedback,Total
+"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,6,4.4,16.1,710,800,790,770,500,884,750,790,5,5994
+"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,12,4.3,16.0,750,690,910,680,710,700,900,880,5,6220
+"Honda Avenue motors, New Delhi",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,18,4.2,16.0,790,820,800,950,810,821,854,941,5,6786
+"Honda Plaza motors, Mumbai",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,24,4.1,15.9,845,720,667,1100,850,900,850,1000,5,6932
+"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,30,4.0,15.8,860,750,700,900,890,941,890,921,5,6852
+"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,36,4.0,15.7,900,860,940,920,910,558,1240,1050,4,7378
+"Honda Avenue motors, New Delhi",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,42,3.9,15.6,910,880,610,950,990,750,900,1100,4,7090
+"Honda Plaza motors, Mumbai",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,48,3.8,15.6,598,1005,1200,856,950,905,895,1008,4,7417
+"Honda KLF motors, Faridabad",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,54,3.7,15.4,950,960,1005,940,935,985,940,980,4,7695
+"Honda ABC motors, Gurugram",Honda City,Sagar Batra,sagar.mishra@gmail.com,7855662103,60,3.7,15.3,980,920,1008,1040,980,1007,1100,1040,4,8075

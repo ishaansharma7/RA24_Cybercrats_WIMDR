@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse
 from home.models import CarModels, BrandNames
-from home.customwork import dynamic_parts, append_service_csv, parts_table_html, rating
+from home.customwork import dynamic_parts, append_service_csv, parts_table_html, rating, rank_html
 import os
 
 static_path = os.path.join(os.getcwd(), 'static')
@@ -48,6 +48,26 @@ def navsearch(request):
     return rended
     return HttpResponse(f'{carsearch.capitalize()}')
 
+def rank(request):
+    html_par = rank_html(carprofile_path)
+    
+    return render(request, 'rank.html', {'all_brands':all_brands, 'html_par':html_par})
+
+def comp_ask(request):
+    all_cars = CarModels.objects.all()
+    return render(request, 'comp_ask.html', {'all_brands':all_brands, 'all_cars':all_cars})
+
+
+def comp_done(request):
+    car1 = ''
+    car2 = ''
+    if request.method == "POST":
+        car1 = request.POST.get('car1')
+        car2 = request.POST.get('car2')
+    car1select = CarModels.objects.filter(car_brand_name=car1)
+    car2select = CarModels.objects.filter(car_brand_name=car2)
+    return render(request, 'comp_done.html', {'all_brands':all_brands, 'car1':car1select[0], 'car2':car2select[0]})
+
 # servicing below
 # level 4
 def final_submit(request):
@@ -57,9 +77,10 @@ def final_submit(request):
         while k != no_of_parts+1:      # only run till no of parts
             parts_dict[k] = request.POST.get(f'{k}') # dynamically store input according a car`s no. of parts
             k += 1
-        append_service_csv(info, parts_dict, carprofile_path)
+        feedback = request.POST.get('feedback')
+        append_service_csv(info, parts_dict, feedback, carprofile_path)
         print('done')
-    return HttpResponse('Submitted succesfully <a href="/">home</a>')
+    return render(request, 'successfull.html', {'all_brands':all_brands})
 
 # level 3
 def semi_submit(request):

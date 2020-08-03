@@ -1,11 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
-"Toyota ABC motors, Gurugram",Toyota Innova,employee_1,xyz@gmail.com,12344556,6,4.0,15.0,900,1200,300,2100,1500,100,600,800,7500
-"Toyota KLF motors, Faridabad",Toyota Innova,employee_2,zxc@cmail.com,57876523,12,3.8,14.7,800,1500,500,1300,900,600,300,1800,7700
-"Toyota Avenue motors, New Delhi",Toyota Innova,employee_3,asd@dmail.com,77898987,18,3.5,14.2,1100,1300,200,1400,700,400,500,2200,7800
-"Toyota Plaza motors, Mumbai",Toyota Innova,employee_4,qwe@gmail.com,54546545,24,3.2,14.0,1500,1500,600,1100,850,700,1500,100,7850
-"Toyota Plaza motors, Mumbai",Toyota Innova,employee_5,ert@dmail.com,13232132,30,3.1,13.8,1000,1500,350,1800,800,100,1500,1400,8450
-"Toyota ABC motors, Gurugram",Toyota Innova,employee_6,dfg@gmail.com,51155151,36,2.81,13.5,800,100,600,2000,1800,1100,1400,800,8600
-"Toyota KLF motors, Faridabad",Toyota Innova,employee_7,rty@gmail.com,14145114,42,2.54,13.0,1600,1200,1400,1900,1500,500,800,100,9000
-"Toyota Avenue motors, New Delhi",Toyota Innova,employee_8,tyu@hotmail.com,12020210,48,2.2,12.5,2000,1500,1200,1800,800,600,200,1300,9400
-"Toyota Plaza motors, Mumbai",Toyota Innova,employee_9,ghj@hotmail.com,32132132,54,2.1,12.1,1800,1500,1200,1700,1400,600,300,1100,9600
-"Toyota Plaza motors, Mumbai",Toyota Innova,employee_10,vbnm@hotmail.com,65465465,60,2.0,12.0,2000,1800,1500,1700,100,1800,200,1800,10900
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,User_Feedback,Total
+"Toyota ABC motors, Gurugram",Toyota Innova,employee_1,xyz@gmail.com,12344556,6,4.0,15.0,900,1200,300,2100,1500,100,600,800,5,7500
+"Toyota KLF motors, Faridabad",Toyota Innova,employee_2,zxc@cmail.com,57876523,12,3.8,14.7,800,1500,500,1300,900,600,300,1800,5,7700
+"Toyota Avenue motors, New Delhi",Toyota Innova,employee_3,asd@dmail.com,77898987,18,3.5,14.2,1100,1300,200,1400,700,400,500,2200,5,7800
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_4,qwe@gmail.com,54546545,24,3.2,14.0,1500,1500,600,1100,850,700,1500,100,5,7850
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_5,ert@dmail.com,13232132,30,3.1,13.8,1000,1500,350,1800,800,100,1500,1400,5,8450
+"Toyota ABC motors, Gurugram",Toyota Innova,employee_6,dfg@gmail.com,51155151,36,2.81,13.5,800,100,600,2000,1800,1100,1400,800,5,8600
+"Toyota KLF motors, Faridabad",Toyota Innova,employee_7,rty@gmail.com,14145114,42,2.54,13.0,1600,1200,1400,1900,1500,500,800,100,5,9000
+"Toyota Avenue motors, New Delhi",Toyota Innova,employee_8,tyu@hotmail.com,12020210,48,2.2,12.5,2000,1500,1200,1800,800,600,200,1300,4,9400
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_9,ghj@hotmail.com,32132132,54,2.1,12.1,1800,1500,1200,1700,1400,600,300,1100,4,9600
+"Toyota Plaza motors, Mumbai",Toyota Innova,employee_10,vbnm@hotmail.com,65465465,60,2.0,12.0,2000,1800,1500,1700,100,1800,200,1800,4,10900

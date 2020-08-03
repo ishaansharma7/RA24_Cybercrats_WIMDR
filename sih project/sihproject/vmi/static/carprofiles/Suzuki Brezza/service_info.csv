@@ -1,11 +1,11 @@
-Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,Total
-"Suzuki ABC motors, Gurugram",Suzuki Swift,employee_1,xyz@gmail.com,12344556,6,4.8,16.8,900,900,900,1200,100,900,1600,0,8000
-"Suzuki KLF motors, Faridabad",Suzuki Swift,employee_2,zxc@cmail.com,57876523,12,4.33,16.5,1000,1200,0,300,800,1100,900,1200,8000
-"Suzuki Avenue motors, New Delhi",Suzuki Swift,employee_3,asd@dmail.com,77898987,18,4.1,16.3,1100,1500,1500,100,1500,200,0,500,9400
-"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_4,qwe@gmail.com,54546545,24,4.1,16.1,900,1600,1000,200,1200,0,0,1500,9200
-"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_5,ert@dmail.com,13232132,30,4.0,16.0,2000,1000,700,8000,0,900,250,1400,11050
-"Suzuki ABC motors, Gurugram",Suzuki Swift,employee_6,dfg@gmail.com,51155151,36,3.8,15.87,1000,1700,1600,1100,2000,1000,1200,1500,11100
-"Suzuki KLF motors, Faridabad",Suzuki Swift,employee_7,rty@gmail.com,14145114,42,3.5,15.5,1500,1200,1000,1300,1000,1000,1400,1750,10150
-"Suzuki Avenue motors, New Delhi",Suzuki Swift,employee_8,tyu@hotmail.com,12020210,48,3.4,15.2,2000,700,1000,800,1400,600,1100,2000,9600
-"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_9,ghj@hotmail.com,32132132,54,3.1,15.1,1700,1000,1000,1600,900,900,1200,1000,9300
-"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_10,vbnm@hotmail.com,65465465,60,3.0,15.0,1400,1500,1500,1900,500,1350,1200,1200,10550
+Dealership,Car_Name,Name_Of_Employee,Email,Mobile_no,Age_Months,Emission_Rating,Mileage,PartA,PartB,PartC,PartD,PartE,PartF,PartG,PartH,User_Feedback,Total
+"Suzuki ABC motors, Gurugram",Suzuki Swift,employee_1,xyz@gmail.com,12344556,6,4.8,16.8,900,900,900,1200,100,900,1600,0,5,6500
+"Suzuki KLF motors, Faridabad",Suzuki Swift,employee_2,zxc@cmail.com,57876523,12,4.33,16.5,1000,1200,0,300,800,1100,900,1200,4,6500
+"Suzuki Avenue motors, New Delhi",Suzuki Swift,employee_3,asd@dmail.com,77898987,18,4.1,16.3,1100,1500,1500,100,1500,200,0,500,3,6400
+"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_4,qwe@gmail.com,54546545,24,4.1,16.1,900,1600,1000,200,1200,0,0,1500,5,6400
+"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_5,ert@dmail.com,13232132,30,4.0,16.0,2000,1000,700,8000,0,900,250,1400,4,14250
+"Suzuki ABC motors, Gurugram",Suzuki Swift,employee_6,dfg@gmail.com,51155151,36,3.8,15.87,1000,1700,1600,1100,2000,1000,1200,1500,3,11100
+"Suzuki KLF motors, Faridabad",Suzuki Swift,employee_7,rty@gmail.com,14145114,42,3.5,15.5,1500,1200,1000,1300,1000,1000,1400,1750,5,10150
+"Suzuki Avenue motors, New Delhi",Suzuki Swift,employee_8,tyu@hotmail.com,12020210,48,3.4,15.2,2000,700,1000,800,1400,600,1100,2000,4,9600
+"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_9,ghj@hotmail.com,32132132,54,3.1,15.1,1700,1000,1000,1600,900,900,1200,1000,3,9300
+"Suzuki Plaza motors, Mumbai",Suzuki Swift,employee_10,vbnm@hotmail.com,65465465,60,3.0,15.0,1400,1500,1500,1900,500,1350,1200,1200,5,10550

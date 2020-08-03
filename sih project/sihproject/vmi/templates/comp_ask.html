@@ -1,0 +1,33 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+
+<div class="container my-5" >
+    <h1 style="margin-top:80px;"><b>Select Two Cars For Comparision</b></h1>
+    
+    
+
+    
+    <form method="post" action="/comp_done">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="brandselect">Select Car 1</label>
+            <select class="form-control" id="brandselect" name="car1">
+                {% for car in all_cars%}
+                    <option>{{car.car_brand_name}}</option>
+                {% endfor %}
+            </select>
+            <label for="brandselect" style="margin: 20px 0px 10px 0px">Select Car 2</label>
+            <select class="form-control" id="brandselect" name="car2">
+                {% for car in all_cars%}
+                    <option>{{car.car_brand_name}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+
+
+</div>
+{% endblock body %}

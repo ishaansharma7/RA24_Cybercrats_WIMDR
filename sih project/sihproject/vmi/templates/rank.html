@@ -1,0 +1,53 @@
+{% extends 'navbar.html' %}
+{% block body %}
+<div class="container-fluid " style="margin-top:80px">
+
+<div class="row">
+		<div class="col-md-12">
+		
+		<h4 style="text-align:center;margin: 10px 10px 10px 10px;">Ranking Of Cars From Best To Worse</h4>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							Rank
+						</th>
+						<th>
+							Car
+						</th>
+						<th>
+							Mileage
+						</th>
+						<th>
+							Emission Rating<br>(Out Of 5)
+						</th>
+						<th>
+							Avg Service
+						</th>
+						<th>
+							PFSI<br>(Out Of 1)
+						</th>
+						<th>
+							PFSI Global<br>(Out Of 1)
+						</th>
+						<th>
+							Safety<br>(Out Of 5)
+						</th>
+						<th>
+							User Feedback<br>(Out Of 5)
+						</th>
+						<th>
+							Rating<br>(Out Of 10)
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{html_par | safe}}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+</div>
+{% endblock body %}

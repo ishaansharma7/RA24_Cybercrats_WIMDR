@@ -18,7 +18,7 @@ def updater():
             stop_inp = input(f'{serv_info_path} -- path do not Exist press any key to abort')
             break
         df = pd.read_csv(serv_info_path)
-        df['Total'] = df.iloc[:,8:-1].sum(axis=1)
+        df['Total'] = df.iloc[:,8:-2].sum(axis=1)
         df.to_csv(serv_info_path, index=False)
         car_info_path = os.path.join(dirpath, 'car_info.txt')
         if os.path.exists(car_info_path) == False:
@@ -32,6 +32,7 @@ def updater():
         df2.loc[df2['Car_Name']== car_type[1], 'Avg_Service'] = df['Total'].mean()
         df2.loc[df2['Car_Name']== car_type[1], 'Mileage'] = df['Mileage'].mean()
         df2.loc[df2['Car_Name']== car_type[1], 'Emission_Rating'] = df['Emission_Rating'].mean()
+        df2.loc[df2['Car_Name']== car_type[1], 'User_Feedback'] = df['User_Feedback'].mean()
         df2.to_csv(carprofile_path, index=False)
         part_list = []
         for i in range(8,len(df.columns)-1):
@@ -123,7 +124,7 @@ def car_price_comp():
 def rating_maker():
     df = pd.read_csv(carprofile_path)
     weigt = .1667
-    df['Rating'] = (df['Mileage']/20)*weigt + (df['Emission_Rating']/5)*weigt + (1-df['PFSI_Global'])*weigt + (df['Safety']/5)*weigt + (df['Price_Comp'])*weigt + (df['User_Feedback']/5)*weigt
+    df['Rating'] = (df['Mileage']/20)*weigt + (df['Emission_Rating']/5)*weigt + (1-df['PFSI_Global'])*weigt + (df['Safety']/5)*weigt + (1-df['Price_Comp'])*weigt + (df['User_Feedback']/5)*weigt
     df.to_csv(carprofile_path, index=False)
 
 updater()
