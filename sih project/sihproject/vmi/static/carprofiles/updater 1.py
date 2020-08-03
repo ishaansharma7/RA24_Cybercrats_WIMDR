@@ -9,6 +9,7 @@ carprofile_path = os.path.join(container, 'carprofiles.csv')
 
 
 def updater():
+    print('This will take 2-3 minutes as program generate new graphs and synchronise data')
     incre = 1
     for dirpath,dirname,filenames in os.walk(os.getcwd()):
         if dirpath == container:
@@ -131,4 +132,6 @@ updater()
 pfsi()
 car_price_comp()
 rating_maker()
+
+
 print('Task Completed')

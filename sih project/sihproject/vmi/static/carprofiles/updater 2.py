@@ -9,6 +9,7 @@ plt.style.use('bmh')
 
 
 def graph_maker_SUV():
+    print('This will take 2-3 minutes as program generate new graphs and synchronise data')
     f1 = plt.figure(1)
     listed_SUV = {}
     listed_SUV = df.loc[df['Category'] == 'SUV']  # returns rows of SUV cars
