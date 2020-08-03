@@ -7,7 +7,7 @@ carprofile_path = os.path.join(container, 'carprofiles.csv')
 df = pd.read_csv(carprofile_path)
 plt.style.use('bmh')
 
-
+#Begin
 def graph_maker_SUV():
     print('This will take 2-3 minutes as program generate new graphs and synchronise data')
     f1 = plt.figure(1)

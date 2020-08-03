@@ -7,7 +7,7 @@ container = os.getcwd()
 carprofile_path = os.path.join(container, 'carprofiles.csv')
 
 
-
+#Begin
 def updater():
     print('This will take 2-3 minutes as program generate new graphs and synchronise data')
     incre = 1
