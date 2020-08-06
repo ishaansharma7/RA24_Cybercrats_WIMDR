@@ -14,6 +14,7 @@ def dynamic_parts(name_str,path): # path is static/carprofiles and name_str is c
     for i in range(5,len(df.columns)-2):
         if k == 1 or k==3:
             placeholder = desc_list[k]
+            stopage = 'min="0"'
         elif k == 2:
             stopage = 'min="0" max="5"'
             placeholder = desc_list[k]
