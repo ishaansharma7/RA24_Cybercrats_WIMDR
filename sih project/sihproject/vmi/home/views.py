@@ -61,24 +61,26 @@ def navsearch(request):
     return HttpResponse(f'{carsearch.capitalize()}')
 
 def rank(request):
+    titlename = 'Rank'
     html_par = rank_html(carprofile_path)
-    
-    return render(request, 'rank.html', {'all_brands':all_brands, 'html_par':html_par})
+    return render(request, 'rank.html', {'titlename':titlename, 'all_brands':all_brands, 'html_par':html_par})
 
 def comp_ask(request):
+    titlename = 'Compare'
     all_cars = CarModels.objects.all()
-    return render(request, 'comp_ask.html', {'all_brands':all_brands, 'all_cars':all_cars})
+    return render(request, 'comp_ask.html', {'titlename':titlename, 'all_brands':all_brands, 'all_cars':all_cars})
 
 
 def comp_done(request):
     car1 = ''
     car2 = ''
-    if request.method == "POST":
-        car1 = request.POST.get('car1')
-        car2 = request.POST.get('car2')
+    titlename = 'Compare'
+    if request.method == "GET":
+        car1 = request.GET.get('car1')
+        car2 = request.GET.get('car2')
     car1select = CarModels.objects.filter(car_brand_name=car1)
     car2select = CarModels.objects.filter(car_brand_name=car2)
-    return render(request, 'comp_done.html', {'all_brands':all_brands, 'car1':car1select[0], 'car2':car2select[0]})
+    return render(request, 'comp_done.html', {'titlename':titlename, 'all_brands':all_brands, 'car1':car1select[0], 'car2':car2select[0]})
 
 # servicing below
 # level 4
