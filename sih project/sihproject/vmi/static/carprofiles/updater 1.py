@@ -36,7 +36,7 @@ def updater():
         df2.loc[df2['Car_Name']== car_type[1], 'User_Feedback'] = df['User_Feedback'].mean()
         df2.to_csv(carprofile_path, index=False)
         part_list = []
-        for i in range(8,len(df.columns)-1):
+        for i in range(8,len(df.columns)-2):
             part_list.append([df.columns[i], df[f'{df.columns[i]}'].mean()])
         parts_analysis = pd.DataFrame(part_list, columns=['Part','Avgerage Money Spent'])
         sorted_parts = parts_analysis.sort_values('Avgerage Money Spent', ascending=False)
