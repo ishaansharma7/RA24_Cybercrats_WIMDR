@@ -48,7 +48,7 @@ def home(request):
 
 def car_detail(request, username):
     titlename = username # for webpage title
-    car = CarModels.objects.filter(car_brand_name=username) # single selected car
+    car = CarModels.objects.filter(car_brand_name__icontains=username) # single selected car
     html_table = parts_table_html(car[0], carprofile_path)
     rate = rating(car[0], carprofile_path)
     return render(request,'car_detail.html', {'titlename':titlename, 'all_brands':all_brands, 'car':car[0], 'html_table':html_table, 'rate':rate})

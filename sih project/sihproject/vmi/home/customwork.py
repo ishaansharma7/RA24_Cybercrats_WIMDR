@@ -109,7 +109,7 @@ def rank_html(path):
 							{row['Safety']}
 						</td>
 						<td>
-							{row['User_Feedback']}
+							{round(row['User_Feedback'],2)}
 						</td>
 						<td>
 							{round(row['Rating']*10,2)}
